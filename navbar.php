@@ -5,15 +5,18 @@
                     <a class="navbar-brand" href="#">
                         <img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png" alt=""
                             width="70" height="auto">
-                        <h3 class="d-inline ms-2">Inviqa</h3>
+                        <h3 class="d-inline ms-2 c-black">Inviqa</h3>
                     </a>
-                    <div class="sidebar-collapse">
+                    <div class="sidebar-collapse d-flex align-items-center">
                         <i class="fas fa-bars pe-2 btn" id="sidebar-collapse"></i>
-                       <h4 class="d-inline">Dashboard</h4> 
+                       <h4 class="d-inline my-auto">Dashboard</h4> 
                     </div>
                     <div>
                         <form class=" position-relative" role="search">
-                            <input class="form-control search-bar me-2 " type="search" placeholder="&#61442; search " aria-label="Search">
+                            <div class="position-relative">
+                            <i class="far fa-search global-search"></i>
+                                <input class="form-control search-bar me-2 " type="search" placeholder="Search here... " aria-label="Search">
+                            </div>
                             <!-- <i class="far fa-search position-absolute  top-50 start-0 translate-middle-y ps-2"></i> -->
                         </form>
                     </div>
@@ -28,6 +31,7 @@
                         </div>
                         <div>
                             <i class="fas fa-bell position-relative c-red">
+                                
                                 <span class="position-absolute top-0 start-100 translate-middle badge bg-blue">
                                     4
                                     <span class="visually-hidden">unread messages</span>
@@ -43,9 +47,9 @@
                                     class="img-fluid bg-dark rounded-pill" width="40" height="auto" alt="">
                             </div>
 
-                            <div class="user-name adm-heading me-4">
-                                <h6 class="mt-1">User Name</h5>
-                                <p class="">Super Admin</p>
+                            <div class="user-name me-2 text-center">
+                                <span class="mt-1 d-block admin-name">User Name <span class="s-admin d-block">Super Admin</span></span>
+                                
                             </div>
 
                             <div class="me-2 dropdown-center">

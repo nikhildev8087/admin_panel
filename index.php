@@ -16,7 +16,7 @@
             <!-- main container  -->
             <div class="admin-main">
                 <div class="row m-0">
-                    <div class="col-md-6">
+                    <div class="col-md-6 ps-0">
                         <div class="row m-0">
                             <div class="col-md-6">
                                 <div class="adm-com">
@@ -78,9 +78,9 @@
                                             <h6>Project created</h6>
                                         </div>
                                         <div class="toggle-btn">
-                                            <button class="btn btn-sm btn-outline-primary rounded-pill">Daily</button>
-                                            <button class="btn btn-sm btn-outline-primary rounded-pill">Weekly</button>
-                                            <button class="btn btn-sm btn-outline-primary rounded-pill active">Monthly</button>
+                                            <button class="c-btn">Daily</button>
+                                            <button class="c-btn">Weekly</button>
+                                            <button class="c-btn active">Monthly</button>
                                         </div>
                                     </div>
                                     <div id="chartdiv"></div>
@@ -90,7 +90,13 @@
                                 <div class="adm-com">
                                     <div class="d-flex justify-content-between align-items-center border-bottom py-3">
                                         <h6 class="my-auto">Monthly Target</h6>
-                                        <i class="fas fa-ellipsis-v c-black"></i>
+                                        <div class="dropdown">
+                                            <i class="fas fa-ellipsis-v c-black" data-bs-toggle="dropdown" arial-expanded="false"></i>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="" class="dropdown-item">Monthly Target</a></li>
+                                                <li><a href="" class="dropdown-item">Monthly Target</a></li>
+                                            </ul>
+                                        </div>
 
                                     </div>
                                     <div id="piechart"></div>
@@ -100,7 +106,14 @@
                                 <div class="adm-com">
                                     <div class="d-flex justify-content-between align-items-center border-bottom py-3">
                                         <h6 class="my-auto">New Clients</h6>
-                                        <i class="fas fa-ellipsis-v c-black"></i>
+                                        
+                                        <div class="dropdown">
+                                            <i class="fas fa-ellipsis-v c-black" data-bs-toggle="dropdown" arial-expanded="false"></i>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="" class="dropdown-item">New Clients</a></li>
+                                                <li><a href="" class="dropdown-item">New Clients</a></li>
+                                            </ul>
+                                        </div>
 
                                     </div>
                                     <div id="linechart"></div>
@@ -119,23 +132,33 @@
                                             <p class="adm-para">Lorem ipsum dolor sit amet</p>
                                         </div>
                                         <div class="icon-bg">
-                                        <i class="fal fa-file-plus c-blue adm-icon"></i>
+                                        <i class="fal fa-file-plus c-blue todo-icon"></i>
                                         </div>
                                     </div>
                                     <div class="tasks">
                                         <ul class="p-0">
                                             <li class="d-flex-inline border-bottom pb-3">
                                                 <div class="adm-heading">
-                                                    <button class="btn rounded bg-yellow c-button">Graphic
-                                                        Designer</button>
+                                                    <button class=" bg-yellow c-button">Graphic Designer</button>
                                                     <p class="adm-para">Visual Graphics for Presentation to Client
                                                     </p>
                                                 </div>
                                                 <div class="row align-items-center">
-                                                    <div class="more-img col-md-6 position-relative">
-                                                        <img class=" position-relative " src="./assets/images/ava-1.png" height="30px" width="auto" alt="" srcset="">
-                                                        <img class=" position-relative multi-img d-inline" src="./assets/images/ava-1.png" height="30px" width="auto" alt="" srcset="">
-                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="multi-img">
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-3.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-5.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-1.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-2.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                        </div>
                                                       
                                                         
                                                         <!-- <img class=" position-absolute top-0 left-0" src="./assets/images/ava-1.png" height="30px" width="auto" alt="" srcset=""> -->
@@ -158,15 +181,26 @@
 
                                             <li class="d-flex-inline border-bottom pb-3">
                                                 <div class="adm-heading">
-                                                    <button class="btn rounded bg-aqua c-button">Digital
+                                                    <button class=" bg-aqua c-button">Digital
                                                         Marketing</button>
                                                     <p class="adm-para">Build Database Design for Fasto Admin v2</p>
                                                 </div>
                                                 <div class="row align-items-center">
-                                                    <div class="more-img col-md-6">
-                                                        <img class=" position-relative" src="./assets/images/ava-1.png"
-                                                            height="30px" width="auto" alt="" srcset="">
-                                                        <!-- <img class=" position-absolute top-0 left-0" src="./assets/images/ava-1.png" height="30px" width="auto" alt="" srcset=""> -->
+                                                    <div class="col-md-6">
+                                                    <div class="multi-img">
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-5.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-4.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-2.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-1.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="d-flex adm-heading">
@@ -186,15 +220,26 @@
 
                                             <li class="d-flex-inline border-bottom pb-3">
                                                 <div class="adm-heading">
-                                                    <button class="btn rounded bg-pink c-button">Programmer</button>
+                                                    <button class="bg-pink c-button">Programmer</button>
                                                     <p class="adm-para">Make Promotional Ads for Instagram Fasto's
                                                     </p>
                                                 </div>
                                                 <div class="row align-items-center">
-                                                    <div class="more-img col-md-6">
-                                                        <img class=" position-relative" src="./assets/images/ava-1.png"
-                                                            height="30px" width="auto" alt="" srcset="">
-                                                        <!-- <img class=" position-absolute top-0 left-0" src="./assets/images/ava-1.png" height="30px" width="auto" alt="" srcset=""> -->
+                                                    <div class="col-md-6">
+                                                    <div class="multi-img">
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-1.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-4.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-5.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                            <div class="profiles">
+                                                                <img class="" src="./assets/images/ava-2.png" height="25px" width="auto" alt="" srcset="">
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="d-flex adm-heading align-items-center">
@@ -222,13 +267,13 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="adm-com">
-                                    <div class="top-header d-flex align-items-center border-bottom justify-content-around pb-3">
+                                    <div class="top-header d-flex align-items-center border-bottom justify-content-around pb-4">
                                         <div class="adm-heading">
                                             <h5>Upcoming Projects</h5>
                                             <!-- <p class="adm-para">Lorem ipsum dolor sit amet</p> -->
                                         </div>
                                         <div class="icon-bg">
-                                            <i class="fal fa-files-medical c-blue adm-icon"></i>
+                                            <i class="fal fa-files-medical c-blue todo-icon"></i>
                                         </div>
                                     </div>
                                     <div class="tasks">
@@ -241,18 +286,29 @@
                                                     <div class=" adm-heading d-flex">
                                                         <div>
                                                             <h6 class="adm-para">Redesign Kripton Mobile App</h6>
-                                                            <p class=""><i class="fas fa-calendar me-2"></i> Created
-                                                                on Sep 8th, 2020</p>
+                                                            <p class=""><i class="fas fa-calendar me-2"></i> Created on Sep 8th, 2020</p>
                                                         </div>
                                                         <div>
-                                                            <i class="fas fa-ellipsis-v"></i>
+                                                            <div class="dropdown">
+
+                                                                <i class="fas fa-ellipsis-v" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="" class="dropdown-item">Heading</a></li>
+                                                                    <li><a href="" class="dropdown-item">Title</a></li>
+                                                                    <li><a href="" class="dropdown-item">Date</a></li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <div class="">
                                                         <div class="d-flex adm-heading align-items-center">
-                                                            <div class="border rounded-pill bg-aqua">
-                                                                <!-- <p>circle</p> -->
+                                                            <!-- <div class=" icon-border ">
                                                                 <i class="fas fa-bolt p-3"></i>
+                                                            </div> -->
+                                                            <div class="radialProgressBar progress-10">
+                                                                <div class="overlay">
+                                                                    <i class="fas fa-bolt p-3"></i>
+                                                                </div>
                                                             </div>
                                                             <div class="ms-3">
                                                                 <p>Deadliine</p>
@@ -272,11 +328,17 @@
                                                     <div class=" adm-heading d-flex">
                                                         <div>
                                                             <h6 class="adm-para">Build Branding Persona for Etza.id</h6>
-                                                            <p class=""><i class="fas fa-calendar me-2"></i> Created
-                                                                on Sep 8th, 2020</p>
+                                                            <p class=""><i class="fas fa-calendar me-2"></i> Created on Sep 8th, 2020</p>
                                                         </div>
                                                         <div class="">
-                                                            <i class="fas fa-ellipsis-v"></i>
+                                                            <div class="dropdown">
+                                                                <i class="fas fa-ellipsis-v" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="" class="dropdown-item">Title</a></li>
+                                                                    <li><a href="" class="dropdown-item">Date</a></li>
+                                                                    <li><a href="" class="dropdown-item">Settings</a></li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <div class="">
@@ -307,7 +369,15 @@
                                                                 on Sep 8th, 2020</p>
                                                         </div>
                                                         <div>
-                                                            <i class="fas fa-ellipsis-v "></i>
+                                                            <div class="dropdown">
+
+                                                                <i class="fas fa-ellipsis-v " data-bs-toggle="dropdown" arial-expanded="false"></i>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="" class="dropdown-item">Manage</a></li>
+                                                                    <li><a href="" class="dropdown-item">Manage</a></li>
+                                                                    <li><a href="" class="dropdown-item">Manage</a></li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <div class="">

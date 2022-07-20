@@ -3,10 +3,11 @@ console.log("hi");
 
 let sidebar = document.getElementById('sidebar-collapse');
 let sideContainer = document.getElementById('panelConttainer');
-
+let sidebar_bottom = document.getElementById('sidebar-bottom');
 sidebar.addEventListener("click", function(){
     console.log("side icon clicked");
     sideContainer.classList.toggle("active");
+    sidebar_bottom.classList.toggle("hide-content");
 })
 
 // bar chart code 
